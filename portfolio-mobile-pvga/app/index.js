@@ -8,13 +8,13 @@ import Footer from "../components/Footer";
 export default function Home() {
   return (
     <SafeAreaView style={{ flex: 1 }}>
-      <Header />
+      
 
       <View style={{ flex: 1 }}>
         <Hero />
       </View>
 
-      <Footer />
+      
     </SafeAreaView>
   );
 }

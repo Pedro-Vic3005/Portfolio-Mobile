@@ -8,7 +8,7 @@ export default function ForcaIntro() {
 
   return (
     <View style={{ flex: 1 }}>
-      <Header />
+      
 
       <View style={styles.container}>
         <Text style={styles.title}>Jogo da Forca</Text>
@@ -24,7 +24,7 @@ export default function ForcaIntro() {
         </TouchableOpacity>
       </View>
 
-      <Footer />
+      
     </View>
   );
 }

@@ -55,7 +55,7 @@ export default function ForcaGame() {
 
   return (
     <ScrollView contentContainerStyle={{ flexGrow: 1 }}>
-      <Header />
+      
       <View style={styles.container}>
         <Text style={styles.title}>Jogo da Forca</Text>
         <Text style={styles.sub}>Erros: {erros} / {maxErros}</Text>
@@ -144,7 +144,7 @@ export default function ForcaGame() {
           </View>
         )}
       </View>
-      <Footer />
+      
     </ScrollView>
   );
 }
